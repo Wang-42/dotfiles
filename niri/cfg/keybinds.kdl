@@ -21,6 +21,7 @@ binds {
     Mod+CTRL+M                          hotkey-overlay-title="Open setttings panel" { spawn-sh "qs -c noctalia-shell ipc call settings toggle";}
     Mod+CTRL+S                          hotkey-overlay-title="System monitors" { spawn-sh "qs -c noctalia-shell ipc call systemMonitor toggle";}
     Mod+CTRL+Space                      hotkey-overlay-title="tobble bar" {spawn-sh "qs -c noctalia-shell ipc call bar toggle";}
+    Mod+CTRL+T                          hotkey-overlay-title="btop" {spawn-sh "ghostty -e btop";}
 
     // Please choose your own file manager.
     Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus --new-window"; }

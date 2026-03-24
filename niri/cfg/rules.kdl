@@ -20,6 +20,7 @@
       match app-id="com.gabm.satty"
       match app-id="qimgv"
       match app-id="zen" title="Library"
+      match app-id="com.mitchellh.ghostty" title="btop"
       open-floating true
       default-column-width { fixed 1440; }
       default-window-height { fixed 810; }
