@@ -1,0 +1,31 @@
+    window-rule {
+        geometry-corner-radius 4 // Set every window radius to 20
+        clip-to-geometry true
+    }
+
+    window-rule {
+      match app-id="zen"
+      match app-id="code-oss"
+      open-maximized true
+    }
+
+    window-rule {
+      match title="Picture-in-Picture" app-id="zen"
+      open-floating true
+      default-column-width { fixed 960; }
+      default-window-height { fixed 540; }
+    }
+
+    window-rule {
+      match app-id="com.gabm.satty"
+      match app-id="qimgv"
+      match app-id="zen" title="Library"
+      open-floating true
+      default-column-width { fixed 1440; }
+      default-window-height { fixed 810; }
+    }
+
+    layer-rule {
+        match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+    }
