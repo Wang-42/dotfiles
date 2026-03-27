@@ -88,7 +88,7 @@
             "center": [
                 {
                     "compactMode": true,
-                    "hideMode": "visible",
+                    "hideMode": "transparent",
                     "hideWhenIdle": false,
                     "id": "MediaMini",
                     "maxWidth": 200,
@@ -96,7 +96,7 @@
                     "scrollingMode": "always",
                     "showAlbumArt": true,
                     "showArtistFirst": false,
-                    "showProgressRing": false,
+                    "showProgressRing": true,
                     "showVisualizer": true,
                     "textColor": "none",
                     "useFixedWidth": false,
@@ -187,6 +187,11 @@
                     "unreadBadgeColor": "primary"
                 },
                 {
+                    "defaultSettings": {
+                        "connectedColor": "primary",
+                        "disconnectedColor": "none",
+                        "displayMode": "onhover"
+                    },
                     "id": "plugin:network-manager-vpn"
                 },
                 {
@@ -686,6 +691,10 @@
             {
                 "enabled": true,
                 "id": "qt"
+            },
+            {
+                "enabled": true,
+                "id": "ghostty"
             }
         ],
         "enableUserTheming": false
@@ -706,7 +715,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/wang/Pictures/Wallpapers",
+        "directory": "/home/wang/Pictures/Wallpapers/loop",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -715,90 +724,12 @@
                 "darkMode": true,
                 "generationMethod": "dysfunctional",
                 "paletteColors": [
-                    "#8b2e2e",
-                    "#8baa82",
-                    "#9a7398",
-                    "#c25b5b"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/BG5.jpg",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "vibrant",
-                "paletteColors": [
-                    "#e47b67",
-                    "#d6ad5c",
-                    "#6699cc",
-                    "#904537"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/1-ash.jpg",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Tokyo Night",
-                "darkMode": true,
-                "generationMethod": "dysfunctional",
-                "paletteColors": [
-                    "#e4b067",
-                    "#ccd65c",
-                    "#90cc66",
-                    "#fd4663"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/02-crowned.jpg",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "dysfunctional",
-                "paletteColors": [
                     "#bd93f9",
                     "#ff79c6",
                     "#8be9fd",
                     "#ff5555"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/1-dark-waters.jpg",
-                "useWallpaperColors": false
-            },
-            {
-                "colorScheme": "Tokyo Night",
-                "darkMode": true,
-                "generationMethod": "dysfunctional",
-                "paletteColors": [
-                    "#e47a67",
-                    "#d6ac5c",
-                    "#c3d65c",
-                    "#fd4663"
                 ],
                 "path": "/home/wang/Pictures/Wallpapers/1_waffles.png",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "faithful",
-                "paletteColors": [
-                    "#bd93f9",
-                    "#ff79c6",
-                    "#8be9fd",
-                    "#ff5555"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/HkhLwVj.jpeg",
-                "useWallpaperColors": false
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "faithful",
-                "paletteColors": [
-                    "#677de4",
-                    "#845cd6",
-                    "#ba66cc",
-                    "#fd4663"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/cat sunbathing lofi.jpg",
                 "useWallpaperColors": true
             },
             {
@@ -824,33 +755,215 @@
                     "#8be9fd",
                     "#ff5555"
                 ],
-                "path": "/home/wang/Pictures/Wallpapers/bit_higher__by_neytirix_ddcvgxk-pre.jpg",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "faithful",
-                "paletteColors": [
-                    "#bd93f9",
-                    "#ff79c6",
-                    "#8be9fd",
-                    "#ff5555"
-                ],
-                "path": "/home/wang/Pictures/Wallpapers/max-suleimanov-dv-138.jpg",
-                "useWallpaperColors": true
-            },
-            {
-                "colorScheme": "Dracula",
-                "darkMode": true,
-                "generationMethod": "faithful",
-                "paletteColors": [
-                    "#bd93f9",
-                    "#ff79c6",
-                    "#8be9fd",
-                    "#ff5555"
-                ],
                 "path": "/home/wang/Pictures/Wallpapers/car flower field scrungly.png",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/bit_higher__by_neytirix_ddcvgxk.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6787e4",
+                    "#8a5cd6",
+                    "#b266cc",
+                    "#fd4663"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/can_i_come_in__by_neytirix_ddoss9c.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/too_late_to_negotiate_by_neytirix_ddbyu2k.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/the_mooshroom_by_neytirix_deyzsx6.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "dysfunctional",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/quick__he_ll_be_back_soon__by_neytirix_ddk5xi6.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#e4a767",
+                    "#d5d65c",
+                    "#98cc66",
+                    "#fd4663"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/on_duty_by_neytirix_ddff7cy.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/i_hope_all_your_wool_is_forever_soggy_by_neytirix_ddbndi8.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#67cee4",
+                    "#5c83d6",
+                    "#7866cc",
+                    "#fd4663"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/guardian_of_the_beetroot_by_neytirix_ddgl0np.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#67e48f",
+                    "#a2d65c",
+                    "#cc7066",
+                    "#fd4663"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/duck_village_by_neytirix_dekbu6y.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/guard_it_well_okay__by_neytirix_ddcc1wt.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/flee_puny_mortals_fleeeee__by_neytirix_desjf2j.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/are_you_lost__by_neytirix_ddx4x55.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/loop/bit_higher__by_neytirix_ddcvgxk.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/loop/can_i_come_in__by_neytirix_ddoss9c.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/loop/car flower field scrungly.png",
+                "useWallpaperColors": false
+            },
+            {
+                "colorScheme": "Dracula",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#bd93f9",
+                    "#ff79c6",
+                    "#8be9fd",
+                    "#ff5555"
+                ],
+                "path": "/home/wang/Pictures/Wallpapers/loop/flee_puny_mortals_fleeeee__by_neytirix_desjf2j.jpg",
                 "useWallpaperColors": false
             }
         ],
@@ -859,12 +972,12 @@
         "hideWallpaperFilenames": false,
         "monitorDirectories": [
             {
-                "directory": "/home/wang/Pictures/Wallpapers",
+                "directory": "/home/wang/Pictures/Wallpapers/loop",
                 "name": "eDP-1",
                 "wallpaper": ""
             },
             {
-                "directory": "/home/wang/Pictures/Wallpapers",
+                "directory": "/home/wang/Pictures/Wallpapers/loop",
                 "name": "HDMI-A-1",
                 "wallpaper": ""
             }
@@ -902,6 +1015,6 @@
         "wallhavenResolutionMode": "atleast",
         "wallhavenResolutionWidth": "",
         "wallhavenSorting": "relevance",
-        "wallpaperChangeMode": "random"
+        "wallpaperChangeMode": "alphabetical"
     }
 }

@@ -3,7 +3,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 # overwrite greeting
 # potentially disabling fastfetch
 function fish_greeting
-    #    # smth smth
+    cat ~/.config/fish/functions/cat_greeting.txt
 end
 
 alias gcam="git commit -a -m"
