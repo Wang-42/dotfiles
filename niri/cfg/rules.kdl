@@ -6,6 +6,7 @@
     window-rule {
       match app-id="zen"
       match app-id="code-oss"
+      match app-id="com.mitchellh.ghostty" title="rmpc"
       open-maximized true
     }
 
