@@ -32,7 +32,7 @@
         "showCategories": true,
         "showIconBackground": false,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "ghostty -e",
         "viewMode": "list"
     },
     "audio": {
@@ -280,6 +280,7 @@
         "monitorForColors": "HDMI-A-1",
         "predefinedScheme": "Dracula",
         "schedulingMode": "off",
+        "syncGsettings": true,
         "useWallpaperColors": false
     },
     "controlCenter": {
@@ -450,6 +451,7 @@
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
+        "smoothScrollEnabled": true,
         "telemetryEnabled": false
     },
     "hooks": {
@@ -493,7 +495,6 @@
         "weatherShowEffects": true
     },
     "network": {
-        "airplaneModeEnabled": false,
         "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "list",
         "bluetoothHideUnnamedDevices": false,
@@ -681,10 +682,6 @@
             },
             {
                 "enabled": true,
-                "id": "btop"
-            },
-            {
-                "enabled": true,
                 "id": "alacritty"
             },
             {
@@ -706,6 +703,14 @@
             {
                 "enabled": true,
                 "id": "qt"
+            },
+            {
+                "enabled": true,
+                "id": "mango"
+            },
+            {
+                "enabled": true,
+                "id": "btop"
             }
         ],
         "enableUserTheming": false
@@ -981,6 +986,7 @@
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
+        "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
             {
                 "directory": "/home/wang/Pictures/Wallpapers/loop",

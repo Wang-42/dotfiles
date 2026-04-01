@@ -13,3 +13,6 @@ alias wgdown="sudo wg-quick down"
 alias mr="wl-mirror eDP-1"
 alias fafe="clear && fastfetch"
 alias clr="clear"
+
+functions --erase apt
+functions --erase apt-get

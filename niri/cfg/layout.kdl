@@ -1,5 +1,5 @@
     layout {
-        gaps 5 // Gap between windows
+        gaps 10 // Gap between windows
         center-focused-column "never" // Don’t auto-center focused column
         background-color "transparent" // <- needed for noctalia-shell to set wallpaper
         default-column-width {proportion 0.8;}
@@ -15,8 +15,13 @@
         }
 
         border {
-          width 4 
+          width 0
         }
 
-        struts {}
+        struts {
+          left -5
+          right -5
+          top -5
+          bottom -5
+        }
     }
