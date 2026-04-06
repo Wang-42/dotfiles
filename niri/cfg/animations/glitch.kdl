@@ -1,9 +1,5 @@
-    animations {
-        workspace-switch {
-            duration-ms 350
-            curve "cubic-bezier" 0.3 0.99 0.53 0.99
-        }
-        window-open {
+animations {
+      window-open {
             duration-ms 750
             curve "ease-out-cubic"
             custom-shader r"
@@ -62,9 +58,9 @@
                 return color * alpha;
             }
             "
-        }
-        window-close {
-            duration-ms 750 
+      }
+      window-close {
+            duration-ms 850 
             curve "ease-out-cubic"
             custom-shader r"
             float gh(float n) {
@@ -122,26 +118,5 @@
                 return color * alpha;
             }
             "
-        }
-        horizontal-view-movement {
-            duration-ms 400
-            curve "cubic-bezier" 0.3 0.99 0.53 0.99
-        }
-        window-movement {
-            duration-ms 400
-            curve "cubic-bezier" 0.3 0.99 0.53 0.99
-        }
-        window-resize {
-            spring damping-ratio=1.0 stiffness=1000 epsilon=0.0001
-        }
-        config-notification-open-close {
-            spring damping-ratio=0.6 stiffness=1200 epsilon=0.001
-        }
-        screenshot-ui-open {
-            duration-ms 300
-            curve "ease-out-quad"
-        }
-        overview-open-close {
-            spring damping-ratio=1.0 stiffness=900 epsilon=0.0001
-        }
-    }
+      }
+}
