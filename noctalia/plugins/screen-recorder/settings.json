@@ -1,7 +1,7 @@
 {
   "hideInactive": true,
   "iconColor": "none",
-  "directory": "",
+  "directory": "/home/wang/Videos/Screen-recording",
   "filenamePattern": "recording_yyyyMMdd_HHmmss",
   "frameRate": "60",
   "audioCodec": "opus",

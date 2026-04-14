@@ -59,13 +59,8 @@
     },
     {
       "type": "custom",
-      "key": "  Window Manager Theme",
-      "key-color": "#CB96E9",
+      "key": "  Theme",
       "format": "Dracula"
-    },
-    {
-      "type": "theme",
-      "key": "  Theme"
     },
     {
       "type": "font",
