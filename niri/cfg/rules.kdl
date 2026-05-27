@@ -21,11 +21,21 @@
       match app-id="com.gabm.satty"
       match app-id="qimgv"
       match app-id="zen" title="Library"
-      match app-id="com.mitchellh.ghostty" title="btop"
-      match app-id="com.mitchellh.ghostty" title="^Yazi"
       open-floating true
       default-column-width { fixed 1440; }
       default-window-height { fixed 810; }
+    }
+
+    window-rule {
+      match app-id="com.mitchellh.ghostty"
+      open-floating true
+      default-column-width { fixed 1600; }
+      default-window-height { fixed 945; }
+    }
+
+    window-rule {
+      match title="STAR DIVE" app-id="steam_app_default"
+      open-fullscreen true
     }
 
     layer-rule {

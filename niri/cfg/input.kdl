@@ -1,4 +1,4 @@
-// ────────────── Input Configuration ──────────────
+// ────────────── Input Confihuration ──────────────
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 
 input {
@@ -7,7 +7,7 @@ input {
             //If you want to overwrite your keyboard layout,
             // uncomment the line below and change the layout accordingly.
             //layout "us" // Use the American keyboard layout
-	          options "caps:swapescape"
+	          options "caps:escape"
         }
         numlock // Enable numlock on startup
     }

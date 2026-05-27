@@ -7,6 +7,7 @@
 output "eDP-1" {
 	mode "1920x1080@60"
 	scale 1
+  variable-refresh-rate on-demand=true
 	hot-corners {
 		bottom-right
 	}
@@ -15,6 +16,7 @@ output "eDP-1" {
 output "HDMI-A-1" {
 	scale 1
 	position x=0 y=0
+  variable-refresh-rate on-demand=true
 	hot-corners {
 		off
 	}

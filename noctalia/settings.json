@@ -87,6 +87,35 @@
         "widgets": {
             "center": [
                 {
+                    "colorizeIcons": false,
+                    "hideMode": "transparent",
+                    "id": "ActiveWindow",
+                    "maxWidth": 900,
+                    "scrollingMode": "hover",
+                    "showIcon": false,
+                    "showText": true,
+                    "textColor": "none",
+                    "useFixedWidth": false
+                }
+            ],
+            "left": [
+                {
+                    "defaultSettings": {
+                        "githubGistId": "",
+                        "githubToken": "",
+                        "notes": "[]",
+                        "syncEnabled": false
+                    },
+                    "id": "plugin:sticky-notes"
+                },
+                {
+                    "defaultSettings": {
+                        "precision": 8,
+                        "showBarValue": true
+                    },
+                    "id": "plugin:noctalia-calculator"
+                },
+                {
                     "compactMode": false,
                     "diskPath": "/",
                     "iconColor": "none",
@@ -107,36 +136,6 @@
                     "textColor": "none",
                     "useMonospaceFont": true,
                     "usePadding": true
-                }
-            ],
-            "left": [
-                {
-                    "colorizeSystemIcon": "none",
-                    "customIconPath": "/home/wang/Pictures/profilepic/IMG_6277 (Copy).png",
-                    "enableColorization": false,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": false
-                },
-                {
-                    "id": "plugin:dns-switcher"
-                },
-                {
-                    "compactMode": true,
-                    "hideMode": "visible",
-                    "hideWhenIdle": false,
-                    "id": "MediaMini",
-                    "maxWidth": 140,
-                    "panelShowAlbumArt": true,
-                    "scrollingMode": "always",
-                    "showAlbumArt": true,
-                    "showArtistFirst": false,
-                    "showProgressRing": true,
-                    "showVisualizer": true,
-                    "textColor": "none",
-                    "useFixedWidth": false,
-                    "visualizerType": "linear"
                 },
                 {
                     "characterCount": 2,
@@ -163,15 +162,12 @@
             "right": [
                 {
                     "defaultSettings": {
-                        "activeColor": "primary",
-                        "enableToast": true,
-                        "hideInactive": false,
-                        "iconSpacing": 4,
-                        "inactiveColor": "none",
-                        "micFilterRegex": "",
-                        "removeMargins": false
+                        "connectedColor": "primary",
+                        "disableToastNotifications": false,
+                        "disconnectedColor": "none",
+                        "displayMode": "onhover"
                     },
-                    "id": "plugin:privacy-indicator"
+                    "id": "plugin:network-manager-vpn"
                 },
                 {
                     "defaultSettings": {
@@ -196,14 +192,6 @@
                         "videoSource": "portal"
                     },
                     "id": "plugin:screen-recorder"
-                },
-                {
-                    "defaultSettings": {
-                        "connectedColor": "primary",
-                        "disconnectedColor": "none",
-                        "displayMode": "onhover"
-                    },
-                    "id": "plugin:network-manager-vpn"
                 },
                 {
                     "blacklist": [
@@ -244,7 +232,7 @@
                     "textColor": "none"
                 },
                 {
-                    "deviceNativePath": "__default__",
+                    "deviceNativePath": "BAT0",
                     "displayMode": "graphic-clean",
                     "hideIfIdle": false,
                     "hideIfNotDetected": true,
@@ -260,6 +248,16 @@
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
+                },
+                {
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "/home/wang/Pictures/profilepic/IMG_6277 (Copy).png",
+                    "enableColorization": false,
+                    "icon": "rocket",
+                    "iconColor": "none",
+                    "id": "Launcher",
+                    "useDistroLogo": false
                 }
             ]
         }
@@ -581,7 +579,7 @@
         "overlayLayer": true
     },
     "plugins": {
-        "autoUpdate": false,
+        "autoUpdate": true,
         "notifyUpdates": true
     },
     "sessionMenu": {

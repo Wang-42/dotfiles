@@ -13,6 +13,7 @@ alias wgdown="sudo wg-quick down"
 alias mr="wl-mirror eDP-1"
 alias fafe="clear && fastfetch"
 alias clr="clear"
+alias workai=". /home/wang/VENV/python312/bin/activate.fish"
 
 functions --erase apt
 functions --erase apt-get
